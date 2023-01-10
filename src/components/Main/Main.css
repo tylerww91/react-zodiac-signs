@@ -1,5 +1,6 @@
 main {
   display: flex;
+  flex-wrap: wrap;
   padding-top: 80px;
   margin-bottom: 40px;
   padding-left: 40px;
@@ -9,4 +10,8 @@ main {
   align-items: flex-start;
   position: relative;
   color: #e4f2fa;
+  overflow: auto;
+  gap: 3px;
+  align-content: center;
+  justify-content: center;
 }

@@ -1,0 +1,14 @@
+.zodiac-card {
+  display: grid;
+  grid-template-rows: 150px;
+  grid-template-columns: 150px;
+  height: 250px;
+  width: 140px;
+  border: 2px solid rgb(149, 149, 149);
+  justify-items: center;
+}
+
+.zodiac-card img {
+  width: 30px;
+  margin-bottom: 10px;
+}
