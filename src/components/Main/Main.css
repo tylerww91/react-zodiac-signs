@@ -1,16 +1,19 @@
+body {
+  height: 100vh;
+}
+
 main {
   display: flex;
   flex-wrap: wrap;
-  padding-top: 80px;
-  margin-bottom: 40px;
+  /* padding-top: 80px; */
   padding-left: 40px;
   padding-right: 40px;
   background-size: cover;
-  height: 600px;
+  height: 80vh;
+  /* height: 584.5px; */
   align-items: flex-start;
   position: relative;
   color: #e4f2fa;
-  overflow: auto;
   gap: 3px;
   align-content: center;
   justify-content: center;

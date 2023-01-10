@@ -6,6 +6,7 @@
   width: 140px;
   border: 2px solid rgb(149, 149, 149);
   justify-items: center;
+  position: relative;
 }
 
 .zodiac-card img {

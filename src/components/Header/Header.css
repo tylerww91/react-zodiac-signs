@@ -1,13 +1,12 @@
 .header {
   display: flex;
   background-color: #13152b;
-  height: 100px;
+  height: 10vh;
   font-family: fantasy;
   align-items: center;
   color: #e4f2fa;
   justify-content: space-around;
   font-size: 1.7em;
-  border-corner-radius: 30%;
   justify-content: center;
 }
 
