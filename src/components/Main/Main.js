@@ -8,7 +8,13 @@ export default function Main(props) {
   return (
     <main style={{ backgroundImage: `url(${background})` }}>
       {zodiac.map((sign) => (
-        <Zodiac key={sign.id} name={sign.name} dates={sign.dates} symbol={sign.symbol} />
+        <Zodiac
+          key={sign.id}
+          id={sign.id}
+          name={sign.name}
+          dates={sign.dates}
+          symbol={sign.symbol}
+        />
       ))}
     </main>
   );

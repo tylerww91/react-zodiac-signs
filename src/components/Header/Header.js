@@ -5,7 +5,7 @@ export default function Header() {
   return (
     <header className="header">
       <img className="header-img" src="../../astro-chart.gif" />
-      Whats your sign?
+      <h2>{"What's your sign?"}</h2>
       <img className="header-img" src="../../astro-chart.gif" />
     </header>
   );
