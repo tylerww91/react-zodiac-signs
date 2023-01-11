@@ -1,0 +1,26 @@
+body {
+  height: 100vh;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+  /* padding-top: 80px; */
+  padding-left: 40px;
+  padding-right: 40px;
+  /* background-size: cover; */
+  background-size: 120%;
+  background-position: 0 50;
+  height: 80vh;
+  /* height: 584.5px; */
+  align-items: flex-start;
+  position: relative;
+  color: #e4f2fa;
+  gap: 3px;
+  align-content: space-evenly;
+  justify-items: center;
+  /* align-content: center;
+  justify-content: center; */
+}
