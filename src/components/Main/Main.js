@@ -4,7 +4,7 @@ import Zodiac from '../Zodiac/Zodiac';
 import { zodiac } from '../../data';
 import background from '../../background.png';
 
-export default function Main(props) {
+export default function Main() {
   return (
     <main style={{ backgroundImage: `url(${background})` }}>
       {zodiac.map((sign) => (
